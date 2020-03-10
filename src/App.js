@@ -14,7 +14,7 @@ class App extends Component {
             <Navigation>
 				<Link to="/" className="boom">Home</Link>
                 <Link to="/mycv" className="cv">Curicullum Vitae</Link>
-                <Link to="/aboutme" className="fun">About Me</Link>
+                
                 <Link to="/projects" className="proj">Projects</Link>
                 <Link to="/contact" className="con">Contact</Link>
             </Navigation>
@@ -22,7 +22,7 @@ class App extends Component {
         <Drawer title={<Link style={{textDecoration:'none', color: 'black'}} to="/">MY PORTFOLIO</Link>} >
             <Navigation>
 				<Link to="/mycv">Curicullum Vitae</Link>
-                <Link to="/aboutme">About Me</Link>
+                
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
